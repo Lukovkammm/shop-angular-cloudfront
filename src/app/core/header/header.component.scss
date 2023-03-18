@@ -4,10 +4,22 @@ a.mat-menu-item {
 }
 
 .home-link {
+  height: 100%;
+  padding: 6px 0 0;
+  overflow: hidden;
   color: white;
   text-decoration: none;
 }
 
+.logo {
+  height: 80%;
+}
+
 .mat-toolbar.mat-primary {
-  background: #303240;
+  background: transparent;
+  border-bottom: 8px double #303240;
+}
+
+mat-icon {
+  color: #303240;
 }
